@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(userResponses) {
   return `
   # Project Name: ${userResponses.projectName}
-  Description: ${userResponses.description}
+  ## Description: ${userResponses.description}
   ...
 
 `;
