@@ -40,6 +40,8 @@ function generateMarkdown(userResponses) {
   return `
   ${licenseBadge} 
 
+#Table of Contents: 
+
   # Project Name: ${userResponses.projectName}
   ## Description: ${userResponses.description}
   ## Installation: ${userResponses.installation}
@@ -47,8 +49,7 @@ function generateMarkdown(userResponses) {
   ## Usage: ${userResponses.usage}
   ## License: ${licenseSection} 
   ## Contributing: ${userResponses.contributing}
-
-  ...
+  ## Questions? My email is: ${userResponses.email} and My GitHub website is: ${userResponses.github}
 
 `;
 }

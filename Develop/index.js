@@ -41,6 +41,16 @@ inquirer
     type:'input',
   message: "What does the user need to know about contributing to the repo?",
   name:'contributing'
+  },
+  {
+    type: 'input',
+    message: 'Questions? My e-mail is: ',
+    name: 'email'
+  },
+  {
+    type: 'input',
+    message: 'My GitHub is: ',
+    name: 'github'
   }
 ])
 .then((userResponses) => {
