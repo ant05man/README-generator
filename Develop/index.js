@@ -17,9 +17,10 @@ inquirer
   name: 'description',
   },
   {
-    type: 'input',
+    type: 'list',
   message: "What kind of license should your project have?",
   name: 'license',
+  choices: ['Apache License 2.0', 'MIT License','Boost Software License 1.0']
   },
   {
     type: 'input',

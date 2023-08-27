@@ -4,6 +4,6 @@
   ## Installation:
   ## Tests:
   ## Usage:
-  ## Contribution:
-  ...
+  ## Contributing:
+  
 
