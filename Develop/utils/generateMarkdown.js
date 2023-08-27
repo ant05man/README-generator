@@ -15,6 +15,12 @@ function generateMarkdown(userResponses) {
   return `
   # Project Name: ${userResponses.projectName}
   ## Description: ${userResponses.description}
+  ## Installation: ${userResponses.installation}
+  ## Tests: ${userResponses.tests}
+  ## Usage: ${userResponses.usage}
+  ## License: ${userResponses.license}
+  ## Contributing: ${userResponses.contributing}
+
   ...
 
 `;

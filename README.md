@@ -4,6 +4,8 @@
 
 ## Installation
 
+## Tests
+
 ## Usage
 
 ## License
