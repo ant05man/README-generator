@@ -38,13 +38,14 @@ function generateMarkdown(userResponses) {
   const licenseSection = renderLicenseSection(userResponses.license);
 
   return `
+  ${licenseBadge} 
+
   # Project Name: ${userResponses.projectName}
   ## Description: ${userResponses.description}
   ## Installation: ${userResponses.installation}
   ## Tests: ${userResponses.tests}
   ## Usage: ${userResponses.usage}
-  ${licenseBadge}  // Add license badge here
-  ${licenseSection} // Add license section here
+  ## License: ${licenseSection} 
   ## Contributing: ${userResponses.contributing}
 
   ...
