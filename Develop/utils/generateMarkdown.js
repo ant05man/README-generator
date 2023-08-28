@@ -41,23 +41,23 @@ function generateMarkdown(userResponses) {
   ${licenseBadge} 
 
 # Table of Contents: 
-- Description
-- Installation
-- Tests
-- Usage
-- License
-- Contributing
-- Questions
+- [Description](#description)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
 
   # Project Name: ${userResponses.projectName}
-  ## Description: ${userResponses.description}
-  ## Installation: ${userResponses.installation}
-  ## Tests: ${userResponses.tests}
-  ## Usage: ${userResponses.usage}
-  ## License: ${licenseSection} 
-  ## Contributing: ${userResponses.contributing}
-  ## Questions? My email is: ${userResponses.email} and My GitHub website is: ${userResponses.github}
+  ## Description: <a id='description'></a>${userResponses.description}
+  ## Installation: <a id='installation'></a>$${userResponses.installation}
+  ## Tests: <a id='tests'></a>$${userResponses.tests}
+  ## Usage: <a id='usage'></a>$${userResponses.usage}
+  ## License: <a id='license'></a>$${licenseSection} 
+  ## Contributing: <a id='contributing'></a>$${userResponses.contributing}
+  ## Questions? My email is: <a id='questions'></a>$${userResponses.email} and My GitHub website is: <a id='github'></a>$${userResponses.github}
 
 `;
 }
