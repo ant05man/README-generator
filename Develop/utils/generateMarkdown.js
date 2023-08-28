@@ -40,7 +40,15 @@ function generateMarkdown(userResponses) {
   return `
   ${licenseBadge} 
 
-#Table of Contents: 
+# Table of Contents: 
+- Description
+- Installation
+- Tests
+- Usage
+- License
+- Contributing
+- Questions
+
 
   # Project Name: ${userResponses.projectName}
   ## Description: ${userResponses.description}
