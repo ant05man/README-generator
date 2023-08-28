@@ -52,12 +52,12 @@ function generateMarkdown(userResponses) {
 
   # Project Name: ${userResponses.projectName}
   ## Description: <a id='description'></a>${userResponses.description}
-  ## Installation: <a id='installation'></a>$${userResponses.installation}
-  ## Tests: <a id='tests'></a>$${userResponses.tests}
-  ## Usage: <a id='usage'></a>$${userResponses.usage}
-  ## License: <a id='license'></a>$${licenseSection} 
-  ## Contributing: <a id='contributing'></a>$${userResponses.contributing}
-  ## Questions? My email is: <a id='questions'></a>$${userResponses.email} and My GitHub website is: <a id='github'></a>$${userResponses.github}
+  ## Installation: <a id='installation'></a>${userResponses.installation}
+  ## Tests: <a id='tests'></a>${userResponses.tests}
+  ## Usage: <a id='usage'></a>${userResponses.usage}
+  ## License: <a id='license'></a>${licenseSection} 
+  ## Contributing: <a id='contributing'></a>${userResponses.contributing}
+  ## Questions? My email is: <a id='questions'></a>${userResponses.email} and My GitHub website is: <a id='github'></a>$${userResponses.github}
 
 `;
 }
