@@ -57,7 +57,7 @@ function generateMarkdown(userResponses) {
   ## Usage: <a id='usage'></a>${userResponses.usage}
   ## License: <a id='license'></a>${licenseSection} 
   ## Contributing: <a id='contributing'></a>${userResponses.contributing}
-  ## Questions? My email is: <a id='questions'></a>${userResponses.email} and My GitHub website is: <a id='github'></a>$${userResponses.github}
+  ## Questions? My email is: <a id='questions'></a>${userResponses.email} and My GitHub website is: <a id='github'></a>${userResponses.github}
 
 `;
 }
