@@ -5,8 +5,14 @@ This is a project where we had to create a function that creates a README file. 
 ## Installation
 npm install inquirer
 ## Tests
+![Screenshot (23)](https://github.com/ant05man/README-generator/assets/132954354/d8e16018-d31d-480d-8e2b-7bf43fbb566d)
+![Screenshot (24)](https://github.com/ant05man/README-generator/assets/132954354/d51e2e1a-f209-41cd-b583-ab7989741069)
+
+
 
 ## Usage
+
+
 
 ## License
 
